@@ -17,7 +17,7 @@
 		, delete_time
     </sql>
 
-    <insert id="insertBoard" parameterType="MyMvcProjectDTO">
+    <insert id="insertBoard" parameterType="MyMvcProjectDTO" useGeneratedKeys="true" keyProperty="idx">
         INSERT INTO tb_board (
         <include refid="boardColumns" />
         ) VALUES (

@@ -3,6 +3,8 @@ package com.sshhh.mymvcproject.domain;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 public class MyMvcProjectDTO extends CommonDTO{
@@ -27,5 +29,11 @@ public class MyMvcProjectDTO extends CommonDTO{
 
     /** 비밀 여부 */
     private String secretYn;
+
+    /** 파일 변경 여부 */
+    private String changeYn;
+
+    /** 파일 인덱스 리스트 */
+    private List<Long> fileIdxs;
 
 }
