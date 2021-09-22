@@ -816,8 +816,8 @@ Version 1.0
 .main-content {
   position: relative;
   z-index: 10;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 600px;
+  margin-right: 600px;
   padding-top: 95px;
 }
 /*---------------------------------------------------------------------*/
@@ -942,7 +942,7 @@ Version 1.0
   height: 75px;
 }
 /*---------------------------------------------------------------------*/
-/* Style */
+/* Style */table table-hover
 /*
 Themes: My Admin
 Version 1.0

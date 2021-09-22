@@ -4,9 +4,7 @@
   <title>this is list page</title>
 </th:block>
 
-<th:block layout:fragment="search">
-  <div th:replace="board/fragments/common :: search"></div>
-</th:block>
+
 
 <th:block layout:fragment="content">
   <div class="table-responsive clearfix">
@@ -44,6 +42,11 @@
       <nav th:replace="board/fragments/common :: pagination"></nav>
     </th:block>
   </div>
+
+  <th:block layout:fragment="search">
+    <div th:replace="board/fragments/common :: search"></div>
+  </th:block>
+
 </th:block>
 
 <th:block layout:fragment="script">
